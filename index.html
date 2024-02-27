@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica recursividad</title>
+    <title>Fibonacci</title>
+    <link rel="stylesheet" href="CSS/serieEstilos.css">
+
 </head>
 <body>
-    <button onclick="imprimir(5)">imprimir lista </button>
-    <script src="JS/recursividad.js"></script>
+    <section class="content-form">
+        <form id="frmSerie">
+            <h1>Serie de Fibonacci</h1>
+            <p>Ingrese el numero de terminos que desea obtener :</p>
+            <input type="number" id="numTerminos">
+            <button onclick="generarFibonacci()">Generar Serie</button>
+            <p>La serie es : <span id="resultado"></span></p>
+
+        </form>    
+    </section>
+    <script src="JS/serieFibonacci.js"></script>
 </body>
 </html>
+
+
+
+
+
+
